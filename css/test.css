@@ -1,0 +1,23 @@
+.test_grid{
+	margin:20px auto;
+	position:relative;
+	border:1px solid black;
+}
+
+.test_box{
+	background-color:rgba(100,100,200,.3);
+	position: absolute;
+	border:1px solid black;
+	font-size:10px;
+
+	/* 
+	explicitly set box model
+	*/
+	box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.test_field{
+	position: relative;
+}
